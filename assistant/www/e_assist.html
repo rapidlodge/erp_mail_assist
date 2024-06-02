@@ -1,0 +1,16 @@
+{% extends "templates/web.html" %}
+
+
+{% block page_content %}
+<div class="chat-container" id="chat-container">
+    <!-- Messages will be dynamically added here -->
+</div>
+
+<div class="p-5 input-group">
+    <input class="form-control shadow bg-white rounded p-2 mr-6" type="text" id="inputField" name="userInput" required>
+    <button class="btn btn-outline-danger secondary font-weight-bolder" id="button-addon2" onclick="checkMail()">Send</button>
+    <div id="response"></div>
+</div>
+</div>
+
+{% endblock %}
