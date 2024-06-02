@@ -15,7 +15,7 @@ from langchain_core.prompts import (
 )
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 @frappe.whitelist()
 def mail_assists(user_input):
